@@ -1,0 +1,66 @@
+<!--
+  Generated template for the ForeignPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+     <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Foreign Foods</ion-title>
+    <ion-buttons end (click)="Addpage();">
+      <button >
+          <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+   
+   <ion-item (click)="Macpage();">
+     <ion-thumbnail item-start>
+       <img src="img/nnbOJUoKSp6JCvi3b3Cw_macNcheese_Mini.jpg">
+     </ion-thumbnail>
+     <h2>Mac and cheese</h2>
+   </ion-item>
+
+  <ion-item (click)="Gwppage();">
+     <ion-thumbnail item-start>
+       <img src="img/94jcOSyTT3CTPsWUBw2t_Gnocchi_Mini.jpg"> 
+     </ion-thumbnail>
+     <h2>Gnocchi with pesto and pancetta</h2>
+  </ion-item>
+   
+  <ion-item>
+     <ion-thumbnail item-start>
+       <img src="img/BhsCGjUTQiKxGcAgg6Ds_Smokytomato_Mini.jpg"> 
+     </ion-thumbnail>
+     <h2>Smoky tomato, basil and pancetta bruschetta</h2>
+  </ion-item>
+
+  <ion-item>
+     <ion-thumbnail item-start>
+       <img src="img/yeXKJsK8TxWze2SUMpiX_hamandcapsicum_Mini.jpg"> 
+     </ion-thumbnail>
+     <h2>Warm pasta salad with ham and capsicum</h2>
+  </ion-item>
+
+   <ion-item>
+     <ion-thumbnail item-start>
+       <img src="img/b8Xs3aaRRIamiwZd7Xtt_Miniham_Mini.jpg"> 
+     </ion-thumbnail>
+     <h2>Mini ham and smashed pea frittata</h2>
+  </ion-item>
+    
+   
+  </ion-list>
+
+</ion-content>
